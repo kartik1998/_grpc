@@ -1,5 +1,6 @@
-## gRPC: HTTP/2 RPC protocol
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
+## gRPC: HTTP/2 RPC protocol 
 ### Agenda
 
 - Motivation
