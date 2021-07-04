@@ -4,6 +4,8 @@
 
 [protocol buffers tutorial](https://www.youtube.com/watch?v=46O73On0gyI)
 
+[protobuf repo](https://github.com/kartik1998/protobuf)
+
 ### Agenda
 
 - Motivation
