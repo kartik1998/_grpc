@@ -24,3 +24,12 @@ client.readTodos({}, (err, res) => {
   if (err) throw err;
   console.log(`Reciented response from grpc server ${JSON.stringify(res)}`);
 });
+
+const call = client.readTodosStream();
+call.on("data", (item) => {
+  console.log(`Recieved item from server ${JSON.stringify(item)}`);
+});
+
+call.on("end", (e) => {
+  console.log("Server stream complete");
+});
