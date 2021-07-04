@@ -1,0 +1,27 @@
+{
+  "name": "dotgrpc",
+  "version": "1.0.0",
+  "description": "gRPC todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartik1998/grpc.git"
+  },
+  "keywords": [
+    "GRPC",
+    "protobuf"
+  ],
+  "author": "Kartik Rawat",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kartik1998/grpc/issues"
+  },
+  "homepage": "https://github.com/kartik1998/grpc#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.4",
+    "grpc": "^1.24.10"
+  }
+}
