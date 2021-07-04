@@ -19,3 +19,8 @@ client.createTodo(
     console.log(`Reciented response from grpc server ${JSON.stringify(res)}`);
   }
 );
+
+client.readTodos({}, (err, res) => {
+  if (err) throw err;
+  console.log(`Reciented response from grpc server ${JSON.stringify(res)}`);
+});
