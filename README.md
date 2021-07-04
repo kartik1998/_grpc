@@ -2,6 +2,8 @@
 
 ## gRPC: HTTP/2 RPC protocol
 
+[protocol buffers tutorial](https://www.youtube.com/watch?v=46O73On0gyI)
+
 ### Agenda
 
 - Motivation
